@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         nameInput = findViewById(R.id.nameInput);
         priceInput = findViewById(R.id.priceInput);
-        addButton = findViewById(R.id.addButton);
+        addButton = findViewById(R.id.btnAdd);
+
 
         addButton.setOnClickListener(v -> {
 
